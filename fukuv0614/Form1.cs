@@ -27,8 +27,10 @@ namespace fukuv0614
             if (ans == yosou)
             {
                 MessageBox.Show("Bingo!!");
+                count = 0;
+                ans = random.Next(51);
             }
-            else if (yosou >= ans)
+            else if (yosou > ans)
             {
                 MessageBox.Show("Greater");
             }
