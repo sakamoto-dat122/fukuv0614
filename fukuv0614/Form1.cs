@@ -5,12 +5,13 @@ namespace fukuv0614
     {
         static Random random = new Random();
         int count = 0;
-        int ans;
+        int ans = 0;
 
         public Form1()
         {
             InitializeComponent();
-            int ans = random.Next(51);
+
+            ans = random.Next(51);
 
         }
 
